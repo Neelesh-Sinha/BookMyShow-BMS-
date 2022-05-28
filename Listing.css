@@ -98,7 +98,7 @@ header{
     display: none;
   }
   #header2_nav{
-    height: 64px;
+    height: 84px;
     background:#2e3147 ;
   }
   #header2_nav div{
@@ -333,3 +333,11 @@ footer{
   }
 }
  
+ /*footer2*/ 
+ #header3_nav div{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  margin-left: 15px;
+}
