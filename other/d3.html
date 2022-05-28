@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movie Tickets ,Plays ,Sports ,Event & Cinemas nearby - BookMyShow</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="delhi.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+ <!--Upper Header-->     
+  <header id="header1">
+   <div id="upper">
+      <div id="logo"><image src="logo.png" alt="logo" height="70" width="132"></div>
+        <div>
+           <form class="d-flex">
+           <input class="form-control me-2" type="search" placeholder="Search movies" aria-label="Search" >
+           </form>
+        </div>
+        <div id="navbar_ur">
+        <nav class="navbar navbar-expand-md">
+         <div class="container-fluid">
+           <ul   class="nav navbar-nav">
+             <li div id="region_button" class="dropdown">
+                <button href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Delhi<span class="caret"></span></button>
+             </li>
+             <li><div id="signin_button"><button type="button" class="btn btn-primary">Sign in</button></div></li>
+             <li><a href="#"><svg viewBox="0 0 100 80" width="40" height="40">
+                  <rect width="120" height="10"></rect>
+                  <rect y="30" width="120" height="10"></rect>
+                  <rect y="60" width="120" height="10"></rect>
+                  </svg></a></li>
+           </ul>
+         </div>
+       </nav>
+   </div>
+ </div>
+ <!--Lower header-->
+     <div id="lower">
+       <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+          <ul  id="navbar_left" class="nav navbar-nav">
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Plays</a></li>
+            <li><a href="#">Sports</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+<header id="header2">
+    <div id="header2_nav">
+    <div><p>It All Starts Here!</p></div>
+    <div id="region_button2">
+          <div class="btn-group dropright">
+            <button href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Location <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Delhi</a></li>
+                <li><a href="#">Mumbai</a></li>
+                <li><a href="#">Lucknow</a></li>
+                <li><a href="#">Bengaluru</a></li>
+              </ul>
+          </div>
+          <div id="search_icon"><a href="#"><image src="search.svg"  height="25" width="20"></a></div>
+   </div>
+</div>
+  </header>
+
+  <!--Filter-->
+
+  <!--<div class="container" id="cont1">-->
+  
+    <div class="row">
+      
+      <div class="col-lg-4">Filters
+      <br><br>
+      <div class="col-lg-12">
+        <div class="row">
+      <div class="btn-group">
+    <button class="btn btn-secondary btn-lg dropdown-toggle" id="dropdownMenuButton1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Date
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+    </ul>
+  </div>
+  </div>
+  </div>
+  <br>
+  <div class="col-lg-12">
+        <div class="row">
+  <div class="btn-group">
+    <button class="btn btn-secondary btn-lg dropdown-toggle" id="dropdownMenuButton2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Language
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+    </ul>
+  </div>
+  </div>
+  
+  </div>
+  <br>
+  <div class="col-lg-12">
+        <div class="row">
+  <div class="btn-group">
+    <button class="btn btn-secondary btn-lg dropdown-toggle" id="dropdownMenuButton3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Categories
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+    </ul>
+  </div>
+  </div>
+  
+  </div>
+  <br>
+  <div class="col-lg-12">
+        <div class="row">
+  <div class="btn-group">
+    <button class="btn btn-secondary btn-lg dropdown-toggle" id="dropdownMenuButton4" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Genres
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+    </ul>
+  </div>
+  </div>
+  
+  </div>
+  <br>
+  <div class="col-lg-12">
+        <div class="row">
+  <div class="btn-group">
+    <button class="btn btn-secondary btn-lg dropdown-toggle" id="dropdownMenuButton5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Price
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+    </ul>
+  </div>
+  </div>
+  
+  </div>
+  <br>
+  <div class="col-lg-12">
+  <div class="row">
+  <div class="btn-group">
+    <button class="btn btn-secondary btn-lg dropdown-toggle" id="dropdownMenuButton6" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      More Filters
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+    </ul>
+  </div>
+  </div>
+  
+  </div>
+  <br>
+  <div class="col-lg-12">
+  <div class="row">
+  <button type="button" id="but2" class="btn btn-primary btn-lg">Browse by Venues</button>
+  </div>
+  </div>
+  </div>
+
+  <!--movies-->
+
+  <div class="jumbotron">
+
+    <div class="row">
+    
+      
+        <div class="col-lg-4">
+          <div class="thumbnail">
+            <img src="bb2.png" alt="kgf2">
+            <div class="caption">
+                <h3 class="card-title">BHOOL BHULAIYAA 2</h3>
+                <p class="card-text">Watch on BookMyShow<br>Hindi<br>₹100</p>
+              <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+            </div>
+          </div>
+        </div>
+      
+
+      
+        <div class="col-lg-4">
+          <div class="thumbnail">
+            <img src="rrr1.jpg" alt="kgf2">
+            <div class="caption">
+                <h3 class="card-title">RRR</h3>
+                <p class="card-text">Watch on BookMyShow<br>Hindi<br>₹100</p>
+              <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+            </div>
+          </div>
+        </div>
+      
+
+      
+        <div class="col-lg-4">
+          <div class="thumbnail">
+            <img src="kgf1.jpg" alt="kgf2">
+            <div class="caption">
+                <h3 class="card-title">KGF: CHAPTER 2</h3>
+                <p class="card-text">Watch on BookMyShow<br>Hindi<br>₹100</p>
+              <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="col-lg-4">
+            <div class="thumbnail">
+              <img src="run1.jpeg" alt="kgf2">
+              <div class="caption">
+                <h3 class="card-title">RUNWAY 34</h3>
+          <p class="card-text">Watch on BookMyShow<br>Hindi<br>₹100</p>
+                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+              </div>
+            </div>
+          </div>
+      
+        
+          <div class="col-lg-4">
+            <div class="thumbnail">
+              <img src="Doctor-Strange-Multverse-of-madness.jpg" alt="kgf2">
+              <div class="caption">
+                <h3 class="card-title">DOCTER STRANGE 2</h3>
+                <p class="card-text">Watch on BookMyShow<br>English (3D)<br>₹100</p>
+                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+              </div>
+            </div>
+          </div>
+   
+  </div>
+
+
+  </body>
+</html>
