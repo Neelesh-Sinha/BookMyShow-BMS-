@@ -148,9 +148,16 @@ header{
       margin-top: 64px;
     }
   }
-
+.mode {
+  margin-right: 0%;
+  margin-top: 5%;
+}
  
   
+
+
+
+
  /*thumbnail*/ 
  .btn-primary{
   background-color: rgb(199, 12, 12) !important;
@@ -167,6 +174,10 @@ header{
    margin-right: 20px;
  }
  
+
+
+
+
  /*footer*/
  body{
   font-family: Roboto,sans-serif;
@@ -273,4 +284,28 @@ footer{
   font-weight: 700;
   letter-spacing: -0.3px;
   margin-left: 15px;
+}
+
+
+
+
+
+
+
+/*dark mode*/
+.mode {
+  float:right;
+}
+.change {
+  cursor: pointer;
+  border: 1px solid rgb(202, 200, 200);
+  border-radius: 40%;
+  width: 20px;
+  text-align: center;
+  padding: 2px;
+  margin-left: 8px;
+}
+.dark{
+  background-color: #222;
+  color: #e6e6e6;
 }
