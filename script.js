@@ -7,3 +7,12 @@ $( ".change" ).on("click", function() {
         $( ".change" ).text( "ON" );
     }
 });
+
+//! Popup-Window
+function loadCoupon(){
+    document.getElementById('coupon').style.visibility = 'visible'
+}
+
+function closeCoupon(){
+    document.getElementById('coupon').style.visibility = 'hidden'
+}

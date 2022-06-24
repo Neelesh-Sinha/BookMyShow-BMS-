@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Movie Tickets ,Plays ,Sports ,Event & Cinemas nearby - BookMyShow</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="script.js" defer></script>
+    <script src="script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
+
+
+
+
+
 
 <!--header2-->
 
@@ -94,6 +99,25 @@
       </nav>
     </div>
   </header>
+
+
+<!--coupon-->
+    <div id="coupon"> 
+      <div class="mainspace">
+        <div class="cpcontent">
+          <button onClick="closeCoupon()">&times;</button>
+          <img id="cpImage" src="Top_20_BookMyShow_Promo_Codes-01_1582976785.png.webp">
+          <span id="cpClose"><i class="fa-solid fa-xmark"></i></span>
+          </div>
+        </div>
+      </div>
+      
+
+  <script>
+    window.onload=loadCoupon()
+  </script>
+
+
 
   <!-- Slide Show -->
 <section>
