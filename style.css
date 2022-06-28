@@ -418,11 +418,11 @@ input:checked + .slider:before {
 
 /*geolocation*/
 #geoloc{
-  height: 47px;
+  height: 10px;
   width: 100%;
   padding-left: 10px;
   margin-left: 10%;
   color: #fafafa;
   margin-top: 5px;
-
+  
 }
