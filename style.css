@@ -419,10 +419,10 @@ input:checked + .slider:before {
 
 #geoloc{
   height: 47px;
-  width: 18%;
+  width: 30%;
   padding-left: 10px;
   margin-left: 15%;
   color: #fafafa;
-  margin-top: 15px;
+  margin-top: 5px;
 
 }
