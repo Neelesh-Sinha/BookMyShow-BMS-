@@ -417,7 +417,7 @@ input:checked + .slider:before {
 
 
 
-#geo{
+#geoloc{
   height: 47px;
   width: 18%;
   padding-left: 10px;
