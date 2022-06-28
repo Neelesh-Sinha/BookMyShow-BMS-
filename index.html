@@ -71,6 +71,57 @@
                   <li><a href="Chennai.html"><img src= "cicon/Chennai-512.webp" width="50" height="50">Chennai</a></li>
                 </ul>
              </li>
+
+
+
+             <div id="geo">
+              <!-- <button onclick="geolocation()">Get location</button> -->
+              <!-- <span id="out"></span> -->
+            <span id="weatherOut"></span>
+            <script>
+              let x = document.getElementById('out');
+              let y = document.getElementById('weatherOut');
+          
+          
+          
+              function geolocation() {
+          
+                  if (navigator.geolocation) {
+                      navigator.geolocation.getCurrentPosition(showPosition)
+                  } else {
+                      x.innerText = "Geo Not Supported"
+                  }
+              }
+          
+              function showPosition(data) {
+                  console.log(data)
+                  let latitude = data.coords.latitude;
+                  let longitude = data.coords.longitude;
+                  const url =
+                      `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${latitude}&lon=${longitude}&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`
+                       //api calling
+                       fetch(url,{method:'GET'})
+                        //return promise
+                      .then((res) => res.json())
+                      .then((data) => {
+                          console.log(data)
+                          let cityName = data.city.name
+                          let temp = data.list[0].temp.day
+                          y.innerText = `Your City is ${cityName} and temp is ${temp} °C`
+                      })
+          
+                  // x.innerText = `Latitude is ${latitude} and Longitude is ${longitude}`;
+              }
+            
+          </script>
+        
+        
+            </div>
+            <script>
+              window.onload=geolocation();
+              </script>
+
+
              <li><div id="signin_button"><button type="button" class="btn btn-primary">Sign in</button></div></li>
              <li><a href="#"><svg viewBox="0 0 100 80" width="40" height="40">
                   <rect width="120" height="10"></rect>
