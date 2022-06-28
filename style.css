@@ -421,7 +421,8 @@ input:checked + .slider:before {
   height: 47px;
   width: 18%;
   padding-left: 10px;
-  margin-left: 2%;
-  /* border: 2px solid black; */
+  margin-left: 15%;
+  color: #fafafa;
+  margin-top: 4px;
 
 }
