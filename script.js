@@ -1,12 +1,8 @@
-$( ".change" ).on("click", function() {
-    if( $( "body" ).hasClass( "dark" )) {
-        $( "body" ).removeClass( "dark" );
-        $( ".change" ).text( "OFF" );
-    } else {
-        $( "body" ).addClass( "dark" );
-        $( ".change" ).text( "ON" );
-    }
-});
+//! light mode dark mode
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }
 
 //! Popup-Window
 function loadCoupon(){
