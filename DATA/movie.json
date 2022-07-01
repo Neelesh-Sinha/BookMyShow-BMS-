@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "movie_name": "KGF: CHAPTER 2",
+        "categories": "Action",
+        "categories_id": 1,
+        "Image": "movicon/",
+    },
+    {
+        "id": 2,
+        "movie_name": "RRR",
+        "categories": "Action",
+        "categories_id": 1,
+        "Image": "src="movicon/rr1.jpg.webp"",
+    },
+    {
+        "id": 3,
+        "movie_name": "TOP GUN: MAVERICK",
+        "categories": "Drama",
+        "categories_id": 3,
+        "Image": "",
+    },
+    {
+        "id": 4,
+        "movie_name": "DOCTOR STRANGE 2",
+        "categories": "Sci-Fi",
+        "categories_id": 4,
+        "Image": "",
+    },
+    {
+        "id": 5,
+        "movie_name": "BHOOL BHULAIYAA 2",
+        "categories": "Comedy",
+        "categories_id": 2,
+        "Image": "",
+    },
+    {
+        "id": 6,
+        "movie_name": "BEAST",
+        "categories": "",
+        "categories_id": 7,
+        "Image": "",
+    }
+ }
+]
